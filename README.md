@@ -50,11 +50,7 @@ El **sistema de conversiones** tiene un *Combobox* principal para seleccionar el
   <img src="media/calculadora_conversion_Combobox_monedas.png" alt="Calculadora de Conversión ComboBox">
 </p>
 
-- Para las conversiones monetarias podrás cambiar el *valor de conversión* en el menu superior **Valor Conversion** que se abrirá desde el **menú Edición**.
-
-<p align="center">
-  <img src="media/calculadora_conversion_edicion_Valor.png" alt="Valor de Conversión">
-</p>
+- Para las conversiones monetarias, podrás cambiar el *valor de conversión* en el menu superior **Valor Conversion** que se abrirá desde el **menú Edición**.
 
 - Vista Panel Conversion.
 
