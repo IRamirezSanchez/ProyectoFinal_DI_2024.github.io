@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="397.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controlador.PanelConversion">
+   <children>
+      <Label layoutX="54.0" layoutY="80.0" prefHeight="30.0" prefWidth="161.0" stylesheets="@../../../styles/estilo.css" text="Moneda Base">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="21.0" layoutY="23.0" prefHeight="32.0" prefWidth="228.0" text="Valor de Conversion" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="155.0" prefHeight="30.0" prefWidth="161.0" text="Moneda Cambio">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TF_Valor" layoutX="57.0" layoutY="274.0" prefHeight="32.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="57.0" layoutY="237.0" prefHeight="30.0" prefWidth="96.0" text="Cambiar Valor">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="BTN_ACEPTARySALIR" layoutX="132.0" layoutY="340.0" mnemonicParsing="false" onAction="#BTN_AceptarySalir" prefHeight="32.0" prefWidth="103.0" style="-fx-background-color: green;" text="Aceptar" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="BTN_SALIR" layoutX="35.0" layoutY="340.0" mnemonicParsing="false" onAction="#BTN_Salir" prefHeight="32.0" prefWidth="65.0" style="-fx-background-color: red;" stylesheets="@../../../styles/estilo.css" text="Salir" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="label_Base" layoutX="57.0" layoutY="110.0" prefHeight="38.0" prefWidth="103.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_Cambio" layoutX="57.0" layoutY="185.0" prefHeight="38.0" prefWidth="103.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

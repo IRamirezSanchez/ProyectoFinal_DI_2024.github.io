@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="368.0" prefWidth="317.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controlador.HistorialCalculadoraController">
+   <children>
+      <ListView fx:id="ListaElementos" layoutX="46.0" layoutY="54.0" prefHeight="245.0" prefWidth="222.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </ListView>
+      <Label layoutX="109.0" layoutY="14.0" prefHeight="32.0" prefWidth="97.0" text="Historial" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="BTN_volver" layoutX="109.0" layoutY="324.0" mnemonicParsing="false" onAction="#b_Volver" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: green;" text="Volver" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,97 @@
+.boton{
+    -fx-background-color:  #c3f6ec;
+}
+.boton:hover{
+    -fx-background-color:  #65fef4;
+}
+.resultadoBack{
+    -fx-background-color: #5DFCF4;
+    -fx-border-color:#5ec8b3;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.botonControl{
+    -fx-background-color:  #808AF7;
+}
+
+.botonControl:hover{
+    -fx-background-color:  #b1b8f5;
+}
+
+.botonControlBasic{
+    -fx-background-color:  #3AACDD;
+}
+
+.botonControlCientifica{
+    -fx-background-color:  #3c7d99;
+}
+
+.botonControlCientifica:hover{
+    -fx-background-color:  #779dad;
+}
+
+.botonControlBasic:hover{
+    -fx-background-color:  #88cfee;
+}
+
+.botonResultado{
+    -fx-background-color:  #54f8b4;
+}
+
+.botonResultado:hover{
+    -fx-background-color:  #0ed180;
+}
+
+.panelResultado{
+    -fx-border-color: #000000;
+    -fx-background-color:#ffffff;
+    -fx-background-radius:15;
+    -fx-border-radius:15;
+}
+
+
+
+.menu-bar {
+    -fx-background-color:  #141524;
+}
+
+.menu-bar .context-menu {
+    -fx-background-color: #141524; /* Cambia colorDeFondo del desplegable */
+}
+
+.menu-bar *{
+    -fx-text-fill: #ffffff;
+    -fx-font-size:14px;
+    -fx-font-weight:bold;
+}
+
+.menu:hover{
+    -fx-background-color: #62637a;
+}
+
+.menu .menu-item:hover {   
+    -fx-background-color: #62637a;
+}
+
+.choice-box {
+    -fx-background-radius: 10;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+
+.choice-box .label {
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.choice-box .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: transparent;
+}
+
+.choice-box .list-cell:filled:selected, .choice-box .list-cell:filled:selected:hover {
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
